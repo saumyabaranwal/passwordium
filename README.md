@@ -17,10 +17,3 @@ Check out the live version here:
 
 ### 🙋‍♀️ Author
 Made with ❤️ by [Saumya Baranwal](https://github.com/saumyabaranwal)
-
-
-
-
-
-Ask ChatGPT
-
