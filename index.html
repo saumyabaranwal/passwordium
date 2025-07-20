@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>Passwordium 🔐</h1>
+
+    <label for="type">Choose password type:</label>
+    <select id="type">
+      <option value="numeric">Only Numeric</option>
+      <option value="alphabetic">Only Alphabetic</option>
+      <option value="alphanumeric">Alphanumeric</option>
+      <option value="random">Random</option>
+    </select>
+
+    <label for="length">Password Length:</label>
+    <input type="number" id="length" min="4" max="50" value="8" />
+
+    <button onclick="generatePassword()">Generate Password</button>
+
+    <p id="result"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
